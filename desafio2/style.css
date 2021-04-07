@@ -1,0 +1,22 @@
+body{
+    background-image : url(./imagens/backgorund.png);
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 50px;
+    font-family: 'Architects Daughter';
+}
+.container_2{
+    padding-left: 50px;
+}
+
+.logo_1{
+    list-style-image: url(./imagens/Insta.png);
+
+}
+.logo_2{
+    list-style-image: url(./imagens/Twitter.png);
+}
+.logo_3{
+    list-style-image: url(./imagens/Youtube.png);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                font-size : 1.2rem;
+            }
+            .static{
+                position: static;
+            }
+            /* muda a posição a partir de onde a div deveria estar
+            recebe parêmetros left, right, top,bottom. */
+            .relative{
+                position: relative;
+                left: 30px;
+            } 
+            .fixed{
+                position: fixed;
+                left: 50%;
+                bottom: 50%;
+            }
+            /* referente ao pai, quando não tem é o body. */
+            .absolute{
+                position: absolute;
+                left: 25px;
+                top:25%;
+            }
+            .quadrado{
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+            }
+            .ret{
+                width: 100px;
+                height: 500px;
+                margin-top: 10px;
+
+            }
+            .bg-red{
+                background-color: red;
+            }
+            .bg-blue{
+                background-color: blue;
+            }
+            .bg-green{
+                background-color: green;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class = "static quadrado bg-blue"></div>
+        <div class = "ret bg-blue static"></div>
+        <div class = "quadrado bg-green static"></div>
+        
+    </body>
+    </html>

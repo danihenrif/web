@@ -1,0 +1,36 @@
+.Titulo{
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 50px;
+}
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-repeat:no-repeat y;
+    background-size: cover ; 
+    background-attachment: fixed;
+}
+
+#unid_referencia{
+    background-color : blue;
+    width : 10vmax;
+}
+.html_index{
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    cursor: URL;
+    font-family : "Permanent Marker";
+    font-size: 30px;
+    background-color:rgba(173, 159, 28, 0.26);
+    padding : 2px 2px 2px 2px;
+}
+.logo{
+    height: 3cm;
+    width: 3cm;
+    position: relative;
+    bottom: 100px;
+    right: 20px;;
+}

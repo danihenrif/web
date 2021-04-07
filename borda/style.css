@@ -1,0 +1,11 @@
+.borda{
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color:rgb(33, 212, 33);
+}
+.quadrado{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
