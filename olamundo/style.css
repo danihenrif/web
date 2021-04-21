@@ -1,0 +1,67 @@
+/*
+.container{
+    font-size: 25px;
+    width: 300px;
+    background: red;
+}
+em é relativo ao tamanho da fonte x * fontsize anterior
+font-size do inside recebe : 
+    2 * 25 = 50px;
+width do inside recebe :
+    2 * (font-size do próprio inside(último))
+    2 * 50 = 100px;
+
+.inside{
+    font-size: 2em;
+    width: 2em;
+    background: blue;
+}
+*/
+
+
+/*
+.container{
+    font-size: 25px;
+}
+
+rem faz referência ao tamanho da fonte do elemento raiz
+ font-size do inside recebe :
+    16px (tamanho da fonte raiz)
+
+.inside{
+    font-size: 1rem;
+}
+*/
+
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}
+
+/*vw - referente a porcentagem em relação 
+a largura da janela 1 vw = 1% da largura da janela*/
+
+.inside{
+    width:100px;
+    background: blue;
+}
+
+
+/*
+.container{
+    width: 100vmin;
+    background: red;
+}
+
+
+vmin - referente a porcentagem em relação a menor dimensão da 
+janela (largura e altura ) 1 vmin = 1% menor dimensão da janela
+v-max o contrário
+
+.inside{
+    width:100px;
+    background: blue;
+}
+*/
