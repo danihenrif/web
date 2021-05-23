@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background: url('../assets/imagem_de_fundo.jpg') no-repeat; 
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#nome{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    padding-top: 30px ;
+}
+
+
+.habilidades{
+    width: 100%;
+    height: 208px;
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    margin-top: 100px;
+}
+
