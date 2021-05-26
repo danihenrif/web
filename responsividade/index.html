@@ -6,20 +6,46 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
         <style type = "text/css">
+        
         body{
             font-size: 1.2rem;
-            margin: 0;
         }   
         .header{
+            position: relative;
+            margin: auto;  
+            width: 80%;
             height: 100px;
-            width: 50%;
-            background-color: gray;
+            background-color: black;
         }
+        .content{
+            position: absolute;
+            height: 60%;
+            width: 60%;
+            background-color: red;  
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%,-50%);
+        }
+        .texto{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.6rem;
+        }
+
         </style>
     </head>
 
     <body>
         <div class="header">
+            <div class = "content">
+                <div class="texto">
+                    galve sau
+                </div>
+            </div>
 
         </div>
     </body>
