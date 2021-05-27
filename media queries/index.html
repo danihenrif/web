@@ -4,30 +4,129 @@
         <title>media queries</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-        <style type = "text/cass">
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        .header{
-            
-        }
-        </body>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300&display=swap" rel="stylesheet">
+        <style type = "text/css">
+        
+            body{
+                margin: 0;
+                padding: 0;
+                font-size: 1.2rem;
+                font-family: 'Exo 2', sans-serif;
+                height: 10000px;
+            }
+
+            .container{
+                position: sticky;
+                /* background-color:red; */
+                height: 125px;
+                width: 100%;
+                float: left;
+                top: 0px;
+            }
+
+            .bloco{
+                position: absolute;
+                /* background-color: white; */
+                height: 90%;
+                width: 95%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border: 1px solid salmon;
+            }
+
+            .container_logo{
+                float: left;
+                /* background-color: black; */
+                height: 100%;
+                width: 25%;
+                position: relative;
+            }
+            .logo_imagem{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .container_lista{
+                position: relative;
+                /* background-color: blue; */
+                height: 100%;
+                width: 75%;
+                float: right;
+                margin: 0;
+                padding: 0;
+            }
+            .container_interno_lista{
+                position: absolute;
+                /* background-color:cadetblue; */
+                height: 100%;
+                width: 95%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+             .container_conteudo_lista{
+                position: absolute;
+                /* background-color: cornsilk; */
+                height: 80%;
+                width: 100%;
+                top: 50%;
+                transform: translateY(-50%);
+                margin: 0;
+                padding: 0;
+            } 
+            .teste{
+                position: absolute;
+                /* background-color: white; */
+                height: 90%;
+                width: 50%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            ul{
+                display: inline-block;
+            }
+            .lista{
+                position:relative;
+                list-style: none;
+                float: left;
+                padding-top: 10px;
+                padding-left: 100px;
+            }
         </style>
 
     </head>
     
     <body>
-        <div class="header">
-            <div class="logo">
-                Logo
+        <div class = "container">
+            <div class = "bloco">
+                <a href="index.html">
+                    <div class = "container_logo">
+                        <img class = "logo_imagem" src="./assets/logo.png" alt="MJ sandálias">
+                    </div>
+                </a>
+                <div class="container_lista">
+                    <div class = "container_interno_lista">
+                        <div class = "container_conteudo_lista">
+                            <div class = "teste">
+                                <ul>
+                                    <li class = "lista">HOME</li>
+                                    <li class = "lista">SERVIÇOS</li>
+                                    <li class = "lista">PRODUTOS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        <ul>
-            <li>Home</li>
-            <li>Cursos</li>
-            <li>Contato</li>
-        </ul>
+        </div>
+
+        <div>a <br> a
 
         </div>
     </body>
+
 </html>
