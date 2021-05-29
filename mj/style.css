@@ -1,52 +1,42 @@
-body{
-    margin :0;
+*{
+    margin: 0;
     padding: 0;
+}
+header{
+    background-color: #202120;
+    margin: auto;
+    padding: 10px;
 }
 .logo{
-    position: relative;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    background-color:cornflowerblue ;
-    display: block;
-}
-#div_imagem{
-    position: absolute;
     width: 100px;
-    height: 90px;
-    /*Colocar a imagem no meio*/
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 100px;
+    background-image: url(./assets/face.png);
+    margin :auto;
+    background-size: cover;
+    overflow:hidden;  
+}
+section{
+    background-color: black;
+    width: 80vw;
+    margin: auto;
+    font-family:;
 }
 
-#imagem_logo{
-    height: 100%;
-
-}
-
-.meio{
-    height: 450px;
-    width: 100%;
-    background-color: red;
-}
-
-#menu{
-    margin: 0;
-    padding: 0;
-    background-color: gray;
-    height: 33px;
-    width: 100%;
-    display: block;
+.menu{
     text-align: center;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+.menu p{
+    color: white;
+    display: inline-block;
+    margin: 10px;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-}
-
-li{
-    list-style: none;
-    font-family: 'Exo 2', sans-serif;
+.Container_1{
+    /* background-image: url(./assets/background.jpg);
+    background-size: cover;
+    overflow: hidden; */
+    background-color: red;
 }
