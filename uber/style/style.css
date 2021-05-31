@@ -15,18 +15,29 @@ header{
 
 .container_2{
     height: 500px;
-    background-color: red;
 }
-
 .container_3{
-    width: 60vw;
+    width: 1000px;
     height: 100%;
     background-color: blue;
     margin: auto;
 }
-
 .container_4{
     width: 100%;
-    height: 40px;
-    background-color: white;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_4 p{
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.container_5{
+    height: 450px;
+    background-color: #FFFFFFBB;
 }
