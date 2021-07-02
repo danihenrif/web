@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
     <title>Sorteio</title>
 </head>
 
-    <script>
-        function sortear(){
-            let np = 100;
-
-            let ns = Math.round(Math.random() * np);
-
-            document.getElementById("d").innerHTML = ns;        }
-    </script>
 
 <body>
-    <h1 id="d"></h1>
-    <button onclick="sortear()">Sortear</button>
+    <div class="container">
+        <div class="form-container">
+            <header class="form-header">
+                <img class="imagem" src="./assets/pierig_four-leaf_clover_1.svg" alt="sorteio">
+            </header>
+            
+            <h1 class="agaum">ESCOLHA O NÚMERO MÁXIMO A SORTEAR</h1>
+            
+            <div class="form-input">
+                <input id="entrada" type="text" placeholder="Exemplo: 100">
+            </div>
+            <div class="form-submit">
+                <button onclick="printarVencedor()">Enviar</button>
+            </div>
+            <h2 id="ns"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
